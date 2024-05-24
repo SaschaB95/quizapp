@@ -4,12 +4,12 @@
 }
 
 body {
-    background-color: cyan !important;
+    background-color: rgb(24, 24, 24) !important;
 }
 
 .container {
     min-height: 100vh;
-    background-color: cyan !important;
+    background-color: rgb(24, 24, 24) !important;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -25,4 +25,27 @@ body {
     display:flex;
     justify-content: space-between;
     padding-top: 12px;
+}
+
+.quiz-answer-card:hover {
+    cursor:pointer;
+    background-color: rgba(0,0,0,0.05);
+}
+
+.bg-success, .bg-danger {
+    color:white !important;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.button-row {
+    display:flex;
+    justify-content: center;
+    margin-top: 24px;
 }
